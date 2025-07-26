@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometry Dash Forum</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background-color: #0f0f0f;
+            color: #ffffff;
+        }
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 3px solid #333;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            background-color: #282828;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #444;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #1a1a1a;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        .buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 25px;
+            background-color: #444;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .buttons a:hover {
+            background-color: #666;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        section h2 {
+            border-bottom: 2px solid #444;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            background-color: #1f1f1f;
+            padding: 20px;
+            font-size: 0.9em;
+            border-top: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Geometry Dash Forum</h1>
+    <p>Crie • Jogue • Compartilhe • Discuta</p>
+</header>
+
+<nav>
+    <a href="#creator">Creator</a>
+    <a href="#forum">Fórum</a>
+    <a href="#jogar">Jogar</a>
+    <a href="#ranking">Ranking</a>
+    <a href="#perfil">Perfil</a>
+</nav>
+
+<section class="hero">
+    <h1>Seja bem-vindo ao mundo dos criadores!</h1>
+    <p>Use o editor, participe da comunidade e explore os melhores níveis de Geometry Dash.</p>
+    <div class="buttons">
+        <a href="#creator">🛠️ Abrir Creator</a>
+        <a href="#jogar">🎮 Jogar Níveis</a>
+        <a href="#forum">💬 Fórum da Comunidade</a>
+    </div>
+</section>
+
+<section id="creator">
+    <h2>🛠️ Creator (Editor de Níveis)</h2>
+    <p>Construa níveis com blocos, portais, triggers e efeitos especiais. Teste e publique suas criações diretamente no site.</p>
+</section>
+
+<section id="forum">
+    <h2>💬 Fórum da Comunidade</h2>
+    <p>Compartilhe seus níveis, participe de discussões, tire dúvidas e junte-se a colaborações criativas com outros jogadores.</p>
+</section>
+
+<section id="jogar">
+    <h2>🎮 Jogar</h2>
+    <p>Explore os níveis criados pela comunidade e desafie seus reflexos com fases novas toda semana!</p>
+</section>
+
+<section id="ranking">
+    <h2>📊 Ranking</h2>
+    <p>Veja os criadores mais populares, os níveis mais jogados e destaques por categorias como visual, dificuldade e inovação.</p>
+</section>
+
+<section id="perfil">
+    <h2>👤 Perfil</h2>
+    <p>Gerencie seus níveis, personalize seu avatar, veja suas conquistas e acompanhe sua evolução na comunidade.</p>
+</section>
+
+<footer>
+    &copy; 2025 Geometry Dash Forum — Protótipo de site desenvolvido para a comunidade.
+</footer>
+
+</body>
+</html>
